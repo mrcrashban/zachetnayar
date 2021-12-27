@@ -1,0 +1,20 @@
+<article class="card my-3">
+  <div class="card-header bg-white">
+    <div class="row">
+      <div class="col-1"><img src="https://sun1-47.userapi.com/s/v1/if1/eWgLWuzFmDZbkmHzx-0Dn3LhR5fPMds-1c-E4y0Rn3wlaS8p3ctEVmHRoKZcnq8E7brCYrY9.jpg?size=50x50&quality=96&crop=294,0,342,342&ava=1" alt="photo" class="avatar"/></div>
+      <div class="col-7 my-2 text-info"><h4><%= @post.user.nickname %></h4></div>
+      <div class="row">
+        <div class="col"><h5 class="text-secondary">
+          <time datetime="<%= @post.created_at.strftime('%H:%M:%S %Y-%m-%d')%>">
+            <%= @post.created_at.strftime('%H:%M:%S %Y-%m-%d') %>
+          </time></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-body bg-white text-dark">
+    <pre><%= sanitize(@post.body) %></pre>
+    <%= link_to t("posts.index.back"), root_path, class: "btn btn-info text-white" %>
+  </div>
+
+</article>

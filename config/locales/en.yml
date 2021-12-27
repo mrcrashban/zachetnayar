@@ -1,0 +1,71 @@
+en:
+  layouts:
+    head: "The Book"
+    home: "Home"
+    create_new: "Share an interesting fact"
+    log_in: "Log in"
+    log_out: "Log out"
+    sign_up: "Sign up"
+    your_posts: "Your facts"
+  posts:
+    edit:
+      edit_post: "Edit"
+      edit_save: "Share"
+      edit_text: "Text"
+    new:
+      new_post: "Share a fact"
+      create: "Share"
+      new_text: "Text"
+    index:
+      edit: "Edit"
+      delete: "Delete"
+      open: "Open"
+      author: "Author"
+      your_posts: "Your's facts"
+      information: "Information"
+      subscribers: "Subscribers"
+      under_information_one: "Articles about animals are read and written here."
+      under_information_two: "Make out your texts about animals in the offer, suggest whom to describe to us, write interesting little-known facts."
+      under_information_three: "We have already written articles about many animals. If you are interested in someone specific, then type the name of the animal into the group search, and with a high probability you will get a post or even several posts about him."
+  sessions:
+    new:
+      auth: "Authorization"
+      log_in: "Log in"
+      email: "E-Mail"
+      password: "Password"
+  users:
+    new:
+      register: "Registration form"
+      register_btn: "Register"
+      email: "E-Mail"
+      password: "Password"
+      nickname: "Name"
+      confirm_password: "Password confirmation"
+    edit:
+      edit: "Edit"
+      email: "E-Mail"
+      password: "New Password"
+      nickname: "Name"
+      confirm_password: "New Password Confirmation"
+      edit_btn: "Save changes"
+  flash:
+    not_log_in: 'You are not signed in.'
+    already_log_in: 'You are already signed in.'
+    not_success_signed_in: 'You have not successfully signed in,'
+    success_signed_in: 'You have successfully signed in,'
+    success_updated: 'Your profile was successfully updated'
+    change_other_user: "You can not change other user"
+    not_success_logged_in: 'You have not successfully signed in,'
+    success_logged_in: 'You have successfully logged in,'
+    success_logged_out: 'You have successfully logged out.'
+    incorrectly_data: 'Data entered incorrectly'
+    not_author: 'You are not author of this story'
+    delete_story: 'The story was successfully deleted'
+    update_story: 'Your story was successfully updated'
+    create_story: 'Your story was successfully created'
+  kaminari:
+    pagination:
+      first: 'First'
+      last: 'Last'
+      next: 'Next'
+      prev: 'Prev'

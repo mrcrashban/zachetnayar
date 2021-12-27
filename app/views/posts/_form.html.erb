@@ -1,0 +1,15 @@
+<div class='article'>
+  <div class="card-body bg-white text-dark">
+    <%= form_with model: @post do |f| %>
+
+      <div class="mb-3 row">
+        <%= f.label t("posts.edit.edit_text"), class: "col-sm-3 col-form-label" %>
+
+        <div class="col-sm-9">
+          <%= f.text_area :body, required: true, minlegth: 5, placeholder: "Fact", class: "form-control" %>
+        </div>
+      </div>
+      <%= f.submit t("posts.edit.edit_save"), class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
