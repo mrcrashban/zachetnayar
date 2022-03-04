@@ -1,24 +1,8 @@
-# README
+Форум, позволяющий людям искать и делиться интересной информацией о животных
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+В данном проекте реализованы:
+- авторизация/регистрация пользователей
+- возможность публиковать/редактировать/удалять посты от имени пользователя
+- возможность смотреть посты всех пользователей
+- перевод всего приложения на русский/английский язык
+- счётчик зарегистрированных пользователей
